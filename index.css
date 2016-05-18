@@ -1,0 +1,19 @@
+
+/* Step 1 - Import all external stylesheets */
+
+/* Step 2 - Import all MIXIN definitions. These can be internal or external */
+@import 'mixins/panel.css';
+
+/* Step 3 - Import BASE styles. */
+@import 'base/lists.css';
+
+/* Step 4 - Import MICROFORMATS (optional) */
+@import 'microformats/h-card.css';
+
+/* Step 5 - Import MODULES */
+@import 'modules/foo.css';
+
+/* Define all VARIABLES */
+:root {
+    --primaryColor: red;
+}
